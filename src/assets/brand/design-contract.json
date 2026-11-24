@@ -1,0 +1,30 @@
+{
+  "version": "2.2",
+  "precedence": "October page-specific guides govern visual profiles; approved runtime content and release policies remain unchanged.",
+  "profiles": {
+    "landing_page": {
+      "reference": "docs/Brand-Guideline_Landing-Pages_ENGLISH.md#8-design-tokens-landing-pages",
+      "primary": "#24569A", "navy": "#1B2436", "heading": "#1B2436", "text": "#4A5568",
+      "secondary": "#8893A5", "border": "#D3D7DF", "surface": "#F4F5F7", "light": "#E9F0FB",
+      "hover": "#1C3B66", "attention": "#C0392B", "line_height": 1.6, "copy_width": 1120,
+      "section_desktop": 80, "section_mobile": 56, "button_radius": 8, "card_radius": 12
+    },
+    "blog": {
+      "reference": "docs/Brand-Guideline_Blog-Articles_ENGLISH.md#6-design-tokens-blog",
+      "primary": "#1F5C99", "navy": "#1B2F4A", "heading": "#1B1A18", "text": "#55524d",
+      "secondary": "#98958F", "border": "#DAD6CF", "surface": "#F2F0EA", "light": "#E7EEF8",
+      "hover": "#1F5C99", "attention": "#A03B33", "line_height": 1.7, "copy_width": 720,
+      "section_desktop": 40, "section_mobile": 28, "button_radius": 8, "card_radius": 12
+    },
+    "planning": {
+      "reference": "docs/EDITORIAL_BRANDING.md#planning-and-package-navigation",
+      "primary": "#1F5C99", "navy": "#1B2F4A", "heading": "#1E293B", "text": "#334155",
+      "secondary": "#94A3B8", "border": "#D3D7DF", "surface": "#F9FAFB", "light": "#E9F0FB",
+      "hover": "#1F64A8", "attention": "#A03B33", "line_height": 1.7, "copy_width": 1000,
+      "section_desktop": 40, "section_mobile": 28, "button_radius": 8, "card_radius": 12
+    }
+  },
+  "typography": {"heading_family": "Montserrat", "heading_weight": 600, "body_family": "Cabin", "body_weight": 400, "body_px": 18},
+  "spacing": {"component": 24, "actions": 16, "caption": 12, "copy": 20},
+  "notes": ["Component/action/caption gaps and unspecified blog/planning dimensions are documented layout defaults, not new content QA rules.", "Visual conformance is separate from semantic QA, professional attestation and WordPress import verification."]
+}
