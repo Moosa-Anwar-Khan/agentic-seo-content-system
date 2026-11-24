@@ -1,0 +1,53 @@
+{
+  "retrieved_at": "2026-10-13T12:57:55.487483+00:00",
+  "guidelines": "docs/Brand-Guideline_Blog-Articles_ENGLISH.md (fictional sample)",
+  "assets": {
+    "cabin-400-latin.woff2": {
+      "source": "https://fonts.gstatic.com/s/cabin/v35/u-4i0qWljRw-PfU81xCKCpdpbgZJl6Xvqdns.woff2",
+      "sha256": "f51448b0b7f024d139fb7598d21b4e06e8174268ac93fc26cc2d4196144cb672",
+      "family": "Cabin",
+      "weight": 400,
+      "subset": "Latin, including German characters",
+      "license": "SIL OFL 1.1"
+    },
+    "cabin-500-latin.woff2": {
+      "source": "https://fonts.gstatic.com/s/cabin/v35/u-4i0qWljRw-PfU81xCKCpdpbgZJl6Xvqdns.woff2",
+      "sha256": "f51448b0b7f024d139fb7598d21b4e06e8174268ac93fc26cc2d4196144cb672",
+      "family": "Cabin",
+      "weight": 500,
+      "subset": "Latin, including German characters",
+      "license": "SIL OFL 1.1"
+    },
+    "montserrat-600-latin.woff2": {
+      "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aXo.woff2",
+      "sha256": "d857325c360f7128b347ca924c1974967aaa886ba47dad22e4042d6c38b26a83",
+      "family": "Montserrat",
+      "weight": 600,
+      "subset": "Latin, including German characters",
+      "license": "SIL OFL 1.1"
+    },
+    "roboto-slab-400-latin.woff2": {
+      "source": "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2",
+      "sha256": "484e9925bb3045e88a8eec1103ab125e6dbe486172fb56b06fe6751c8b570839",
+      "family": "Roboto Slab",
+      "weight": 400,
+      "subset": "Latin, including German characters",
+      "license": "Apache-2.0"
+    },
+    "logo.svg": {
+      "source": "Generated placeholder for the public showcase",
+      "sha256": "8733ea61a91cc7f6d5c657da124cd6bb49ab893e55e056bab22366263b021c5b",
+      "basis": "Neutral placeholder; replace with the client firm's approved asset."
+    },
+    "team.avif": {
+      "source": "Generated placeholder for the public showcase",
+      "sha256": "08856a02de03996b118723de8a9ca090992b2a78d552dd4f47cf363706764618",
+      "basis": "Neutral placeholder; replace with the client firm's approved asset."
+    },
+    "office.webp": {
+      "source": "Generated placeholder for the public showcase",
+      "sha256": "50e3bafd40236469c1d2cb886977f4a1a444878fec9fb362c0eb86bdf8aa620f",
+      "basis": "Neutral placeholder; replace with the client firm's approved asset."
+    }
+  }
+}
