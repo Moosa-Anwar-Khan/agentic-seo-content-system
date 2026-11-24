@@ -1,0 +1,20 @@
+{
+  "brand": "Muster & Partner Steuerberatung",
+  "address": "Sie",
+  "tone": "Professionell, verständlich, höflich, respektvoll",
+  "disclaimer": "Diese Inhalte ersetzen keine individuelle Steuerberatung. Bitte vereinbaren Sie ein persönliches Gespräch, damit wir Ihren konkreten Fall individuell prüfen können.",
+  "colors": {
+    "primary": "#1F5C99",
+    "navy": "#1B2F4A",
+    "text": "#334155",
+    "background": "#F9FAFB"
+  },
+  "forbidden_promises": [
+    "garantierte Steuerersparnis",
+    "100 % rechtssicher",
+    "Rückmeldung in 2 Stunden"
+  ],
+  "notes": [
+    "Antwortzeit aus der Brand-PDF ist nicht verifiziert und wird nicht als Leistungsversprechen übernommen."
+  ]
+}
