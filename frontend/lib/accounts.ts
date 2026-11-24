@@ -1,0 +1,21 @@
+// English account and history copy, kept separate from German deliverables.
+export const accountCopy = {
+ submitting: 'Submitting…', selectReviewer: 'Select reviewer…', inactiveReviewer: 'Inactive reviewer', activatedOwner: 'Activated owner', adminPassword: 'Administrator password', authenticatorCode: 'Current authenticator code', historyFilters: 'Run history filters', member: 'Member', pendingApproval: 'Pending approval', rejected: 'Rejected', preparingMfa: 'Preparing authenticator setup…',
+ create: 'Create account', setup: 'Set up administrator', back: 'Back to sign in',
+ name: 'Name', email: 'Email address', password: 'Password (12–128 characters)', confirm: 'Confirm password',
+ code: 'Local setup code', setupHelp: 'Copy the setup code from the local backend terminal. It expires after 15 minutes. Restart the backend for a new code. If you already registered, use the same email and your original registration password. After creating the administrator, set up your authenticator.',
+ registrationHelp: 'An administrator must approve your registration before you can access runs or use credits. After activation, sign in to set up your authenticator. No email will be sent. Ask your administrator for password or authenticator recovery.',
+ pendingTitle: 'Registration submitted', pending: 'Your account is awaiting administrator approval. No runs or credits are available until activation. After approval, sign in with the password you chose to set up your authenticator.',
+ mismatch: 'Passwords must match and contain 12–128 characters.',
+ my: 'My runs', shared: 'Shared with me', all: 'All runs (administrator)', history: 'Saved history',
+ empty: 'No runs in this view yet. Your results remain saved after you sign out.',
+ sharing: 'Private history & sharing', sharingHelp: 'Only you, administrators and explicitly selected professional or final reviewers can access this run. Sharing grants access to this run, not a new account role. Reviewers may request corrections that use the shared budget.',
+ legacy: 'This historical run has no owner. Only administrators can access it. Assign an activated owner before sharing.',
+ share: 'Grant access', revoke: 'Revoke access', chooseReviewer: 'Select a qualified reviewer',
+ owner: 'Assign owner', ownerHelp: 'Changing ownership removes existing sharing grants. Enter your administrator password and current authenticator code to confirm.',
+ accounts: 'Account & registration management', approve: 'Activate member', reject: 'Reject registration',
+ qualifications: 'Registration activates an ordinary member. Create professional accounts only after checking qualifications. Only trusted administrator-created Alex/Sam identities can grant final approval.',
+ paidCorrection: 'Request a revision? This may generate new AI responses and consume the shared run and monthly budgets. Saved progress is retained.',
+ draftingPermission: 'You have professional reviewer access. The owner, administrator or trusted final reviewer handles topic selection, quality reruns and infographic uploads. You can review the saved work and request corrections using your assigned role.',
+ finalHelp: 'Final approval and rejection remain restricted to trusted Alex/Sam accounts. An administrator role alone does not grant final or professional approval.',
+};
