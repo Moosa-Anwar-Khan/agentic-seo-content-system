@@ -1,0 +1,98 @@
+{
+  "title": "Immobiliensteuerberater für private Buy-&-Hold-Investoren",
+  "primary_keyword": "Immobiliensteuerberater",
+  "secondary_keywords": [
+    "Steuerberater für Immobilieninvestoren",
+    "Vermietung Einkommensteuer",
+    "Anlage V",
+    "AfA Immobilien",
+    "Kaufpreisaufteilung",
+    "Werbungskosten Vermietung"
+  ],
+  "target_audience": "Private Investoren mit mindestens zwei vermieteten Immobilien; langfristiger Bestand, digitale Belege und weitere Käufe.",
+  "search_intent": "Anbietervergleich: passende laufende Steuerberatung suchen und deren Aufgaben verstehen; ergänzend Informationssuche.",
+  "reader_outcome": "Sie erkennen wiederkehrende steuerliche Arbeitsfelder, verstehen die Bedeutung objektbezogener Dokumentation und können ein Erstgespräch vorbereiten.",
+  "suggested_words": 1600,
+  "headings": [
+    {
+      "h2": "Wann spezialisierte Immobiliensteuerberatung sinnvoll ist",
+      "h3": [
+        "Mehrere Objekte gemeinsam überblicken",
+        "Vor dem nächsten Kauf Fragen klären"
+      ],
+      "guidance": "Konkrete Organisationsprobleme schildern; keine Rendite- oder Steuervorteile zusagen."
+    },
+    {
+      "h2": "Einkommensteuer und Anlage V nachvollziehbar vorbereiten",
+      "h3": [
+        "Ein Objekt, eine nachvollziehbare Dokumentation"
+      ],
+      "guidance": "§ 21 EStG allgemein erklären; keine personenbezogenen Beispielakten."
+    },
+    {
+      "h2": "AfA und Kaufpreisaufteilung zusammen betrachten",
+      "h3": [
+        "Gebäude und Grund und Boden trennen",
+        "Unterlagen dauerhaft verfügbar halten"
+      ],
+      "guidance": "Keinen pauschalen AfA-Satz nennen; Voraussetzungen hängen vom Objekt ab."
+    },
+    {
+      "h2": "Werbungskosten und Maßnahmen richtig einordnen",
+      "h3": [
+        "Laufende Kosten dokumentieren",
+        "Renovierung vor Beginn besprechen"
+      ],
+      "guidance": "§ 9 und § 6 EStG als Ausgangspunkte; Erhaltungsaufwand und Herstellungskosten unterscheiden, keine vereinfachte Freigabe."
+    },
+    {
+      "h2": "Finanzierung und Eigentum vorausschauend planen",
+      "h3": [
+        "Zins, Tilgung und Mittelverwendung unterscheiden",
+        "Eigentumsstruktur anhand Ihrer Ziele prüfen"
+      ],
+      "guidance": "Keine pauschale Empfehlung für GmbH oder andere Gesellschaften."
+    },
+    {
+      "h2": "So bereiten Sie die laufende Zusammenarbeit vor",
+      "h3": [
+        "Digitale Objektordner einrichten",
+        "Ein Erstgespräch mit klaren Fragen führen"
+      ],
+      "guidance": "Allgemeine Checkliste, keine Upload- oder E-Mail-Aufforderung für vertrauliche Daten in dieses SEO-System."
+    }
+  ],
+  "internal_link_ids": [
+    "vermietung-einkommensteuer",
+    "afa-immobilien",
+    "kaufpreisaufteilung",
+    "werbungskosten-vermietung",
+    "finanzierung-immobilien",
+    "eigentumsstruktur",
+    "portfolio-steuerplanung"
+  ],
+  "cta": "Vereinbaren Sie ein persönliches Gespräch zur steuerlichen Begleitung Ihres Immobilienbestands.",
+  "faq_questions": [
+    "Wann ist ein Immobiliensteuerberater sinnvoll?",
+    "Welche Unterlagen helfen im Erstgespräch?",
+    "Kann eine Gesellschaft für meine Immobilien sinnvoll sein?",
+    "Wird für jedes Objekt eine eigene Übersicht benötigt?"
+  ],
+  "source_urls": [
+    "https://www.gesetze-im-internet.de/estg/__21.html",
+    "https://www.gesetze-im-internet.de/estg/__9.html",
+    "https://www.gesetze-im-internet.de/estg/__7.html",
+    "https://www.gesetze-im-internet.de/estg/__6.html"
+  ],
+  "legal_review_notes": [
+    "Fachliche Freigabe vor öffentlicher Verwendung erforderlich.",
+    "Keine individuelle Steuerberatung oder garantierte Ersparnis.",
+    "Steuerrecht, Formulare und Sonderregeln am Veröffentlichungstag prüfen.",
+    "Interne Links im Demoexport führen auf den lokalen Themenplan; für WordPress bestätigte URLs eintragen."
+  ],
+  "editorial_notes": [
+    "Vorhandenen Beispielartikel ausschließlich als Strukturreferenz verwenden. Dessen pauschale AfA- und Hausgeldaussagen nicht ungeprüft übernehmen.",
+    "Brand-Farben verwenden; keine externen Font-Downloads im lokalen Entwurf.",
+    "Keine erfundenen Messwerte, Fallstudien, Reviews oder Leistungsversprechen."
+  ]
+}
