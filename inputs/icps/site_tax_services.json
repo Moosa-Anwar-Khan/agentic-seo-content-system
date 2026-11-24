@@ -1,0 +1,11 @@
+{
+  "id": "site_tax_services",
+  "name": "Tax services — website-wide research",
+  "description": "Website-wide research of the tax services actually documented on Muster & Partner public pages. Audience and service facts must be approved before drafting.",
+  "goals": ["Relevante Sichtbarkeit in Deutschland", "Belegte nächste Schritte für vorhandene Leistungsseiten"],
+  "services": ["Finanzbuchhaltung", "Jahresabschluss", "Steuererklärungen"],
+  "preferred_traits": ["Digitale Zusammenarbeit"],
+  "seed_topic": "Steuerberater Steuerberatung",
+  "drafting_approved": false,
+  "approved_fact_sources": []
+}
