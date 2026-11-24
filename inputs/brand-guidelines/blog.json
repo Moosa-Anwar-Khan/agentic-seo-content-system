@@ -1,0 +1,211 @@
+{
+  "pack_id": "blog",
+  "version": "1.2.1-rs.2026-10-17",
+  "source_file": "Brand-Guideline_Blog-Articles_ENGLISH.md",
+  "source_version": "fictional-sample-1.0",
+  "decisions": "docs/COMBINED_ARCHITECTURE.md",
+  "modules": [
+    {
+      "id": "S01",
+      "name": "Breadcrumb & Kategorie",
+      "required": true,
+      "rule": "Startseite » [Kategorie]; nur Buchhaltung, Einkommensteuer, Unternehmenssteuern, Selbständigkeit"
+    },
+    {
+      "id": "S02",
+      "name": "H1 + Lead",
+      "required": true,
+      "rule": "H1 nach Muster „[Hauptkeyword] — [konkrete Situation/Nutzen]“; Lead 2-3 sehr kurze Sätze als konkrete Szene, dann ein zuspitzender Satz"
+    },
+    {
+      "id": "S03",
+      "name": "Meta-Zeile",
+      "required": true,
+      "rule": "Autor „Muster & Partner – Steuerberatung“ · Datum · „ca. X Min. Lesezeit“ (Wörter ÷ 200)"
+    },
+    {
+      "id": "S04",
+      "name": "Inhaltsverzeichnis",
+      "required": false,
+      "template": true,
+      "rule": "wird automatisch aus den H2 erzeugt"
+    },
+    {
+      "id": "S05",
+      "name": "Einleitung",
+      "required": true,
+      "rule": "2 Absätze: Praxisperspektive, dann Versprechen des Artikels; 80-150 Wörter",
+      "min_words": 80,
+      "max_words": 150
+    },
+    {
+      "id": "S06",
+      "name": "Situationsnavigator",
+      "required": true,
+      "rule": "„Welche Situation trifft auf Sie zu?“ 5-8 Einträge, je Anker auf passende H2/H3"
+    },
+    {
+      "id": "S06a",
+      "name": "Hauptinfografik",
+      "required": true,
+      "rule": "Infografik im Stil „Anleitung“ zur H1; Grafik-Briefing für NotebookLM"
+    },
+    {
+      "id": "S07",
+      "name": "Einordnung",
+      "required": true,
+      "rule": "„Wann liegt … vor?“/„Was ist …?“; 3-6 Fälle mit Gesetzesverweis; Callout „Achtung“"
+    },
+    {
+      "id": "S08",
+      "name": "Kernabschnitte",
+      "required": true,
+      "rule": "3-7 H2; je Situation & Rechtslage mit §§, H3 „Welche Folgen hat Abwarten?“, H3 „Unser Vorgehen …“; 250-450 Wörter je H2"
+    },
+    {
+      "id": "S09",
+      "name": "Zielgruppenabschnitt",
+      "required": false,
+      "rule": "nur wenn das Thema es trägt"
+    },
+    {
+      "id": "S10",
+      "name": "Long-Tail-Fragen",
+      "required": true,
+      "rule": "mindestens 2 H2 als Frage; erster Satz antwortet direkt; letzter Absatz beginnt mit „Das Positive: …“",
+      "min_question_h2": 2
+    },
+    {
+      "id": "S11",
+      "name": "Entscheidungshilfe",
+      "required": false,
+      "rule": "„Kann ich das selbst …?“ ehrlicher Vergleich"
+    },
+    {
+      "id": "S12",
+      "name": "Prioritätentabelle",
+      "required": false,
+      "rule": "Situation | Handlungspriorität | Warum jetzt?"
+    },
+    {
+      "id": "S13",
+      "name": "Unterlagen-Checkliste",
+      "required": false,
+      "rule": "Pflicht bei Themen mit Übergabe an den Steuerberater"
+    },
+    {
+      "id": "S14",
+      "name": "Sofortmaßnahmen",
+      "required": true,
+      "rule": "5-8 nummerierte Schritte mit fettem Imperativ; letzter Schritt „Steuerberater kontaktieren“; CTA „Termin anfragen →“",
+      "requires_cta": true
+    },
+    {
+      "id": "S15",
+      "name": "Weiterführende Beiträge",
+      "required": true,
+      "rule": "6-8 Kacheln auf andere veröffentlichte Blogartikel",
+      "min_blog_links": 6,
+      "max_blog_links": 8
+    },
+    {
+      "id": "S16",
+      "name": "Fazit",
+      "required": true,
+      "rule": "H2 „Fazit“, 2 kurze Absätze, keine neuen Informationen; 60-120 Wörter",
+      "min_words": 60,
+      "max_words": 120
+    },
+    {
+      "id": "S17",
+      "name": "Nächster Schritt + CTA",
+      "required": true,
+      "rule": "Callout „Nächster Schritt“, H3 „[Problem] lässt sich lösen – mit dem richtigen Plan.“, Faktensatz zum Erstgespräch, CTA „Erstgespräch vereinbaren“",
+      "requires_cta": true
+    },
+    {
+      "id": "S18",
+      "name": "Social-Media-Leiste",
+      "required": true,
+      "rule": "„Weitere Steuertipps auf unseren Kanälen:“ nur gepflegte Kanäle (K4)"
+    },
+    {
+      "id": "S19",
+      "name": "Template-Bereiche",
+      "required": false,
+      "template": true,
+      "rule": "vom Theme erzeugt"
+    }
+  ],
+  "core_sections": [
+    "S08"
+  ],
+  "categories": [
+    "Buchhaltung",
+    "Einkommensteuer",
+    "Unternehmenssteuern",
+    "Selbständigkeit"
+  ],
+  "forbidden": [
+    "ganzheitlich",
+    "maßgeschneidert",
+    "innovativ",
+    "führend",
+    "Ihr starker Partner",
+    "Papierkram",
+    "easy",
+    "Jetzt zuschlagen",
+    "Nicht verpassen",
+    "hier klicken"
+  ],
+  "preferred_words": [
+    "klar",
+    "verlässlich",
+    "persönlich",
+    "strukturiert",
+    "digital",
+    "transparent",
+    "Schritt für Schritt",
+    "vollständig"
+  ],
+  "cta_target": "https://steuerkanzlei.example/mandant-werden/",
+  "cta_texts": {
+    "S14": "Termin anfragen →",
+    "S17": "Erstgespräch vereinbaren"
+  },
+  "links": {
+    "min_blog_text_links": 3,
+    "landing_links_min": 1,
+    "landing_links_max_hint": 3
+  },
+  "external_domains": [
+    "gesetze-im-internet.de",
+    "bundesfinanzministerium.de",
+    "bundesfinanzhof.de",
+    "elster.de"
+  ],
+  "social_channels": [
+    "linkedin",
+    "instagram"
+  ],
+  "seo": {
+    "title_max": 60,
+    "description_min": 140,
+    "description_max": 155,
+    "keyword_min_h2": 2,
+    "min_words": 1200,
+    "max_words": 3500
+  },
+  "schema_types": [
+    "Article",
+    "BreadcrumbList"
+  ],
+  "graphic_checklist": [
+    "Hauptinfografik im Stil „Anleitung“, hoher Detailgrad, passend zur H1 (S06a)",
+    "Aus eigenen Blogartikeln und amtlichen Quellen erstellt",
+    "Alle Schritte, Fristen, Beträge und §§ stimmen mit dem Text überein",
+    "Rechtschreibung und Umlaute in der Grafik Wort für Wort geprüft",
+    "Alt-Text, Bildunterschrift, Dateiname, WebP und Schema gesetzt"
+  ],
+  "backlink_task": "Nach Veröffentlichung 2-3 bestehende verwandte Artikel auf den neuen Artikel verlinken (K8)."
+}
