@@ -1,0 +1,8 @@
+{
+  "note": "Owner-approved existing pages that count as guide destinations for the blog link check, because the site's page inventory contains no indexable pages matching the automatic guide patterns. Added at the run owner's explicit instruction for an internal demonstration. On 2026-10-27 the sevDesk and Lexware pages were replaced by the firm's AfA calculator after QA rated them only marginally relevant; the calculator is live but currently set to noindex by the firm. Only pages that exist in the saved website inventory are used; nothing here creates or invents a URL. Semantic relevance remains a QA and professional-review requirement.",
+  "approved_by": "Sam (run owner)",
+  "approved_on": "2026-10-27",
+  "pages": [
+    "https://steuerkanzlei.example/rechner/afa-immobilien/"
+  ]
+}
