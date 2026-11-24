@@ -1,0 +1,87 @@
+{
+  "pack_id": "facts",
+  "version": "2026-10-08.1",
+  "decided_in": "docs/COMBINED_ARCHITECTURE.md",
+  "facts": [
+    {
+      "id": "experience",
+      "wording": "über 12 Jahre Erfahrung in der Steuerberatung",
+      "trigger": "Jahre[n]? (?!digitale)(\\w+ )?Erfahrung(?! in der digitalen)"
+    },
+    {
+      "id": "digital_experience",
+      "wording": "über 12 Jahre Erfahrung in der digitalen Steuerberatung",
+      "trigger": "(Jahre[n]? (digitale|digitaler) Erfahrung|Erfahrung in der digitalen)"
+    },
+    {
+      "id": "team",
+      "wording": "Ein Team mit Erfahrung aus vielen Branchen",
+      "trigger": "Erfahrung aus vielen Branchen"
+    },
+    {
+      "id": "online_marketer",
+      "wording": "Ein Digital-Spezialist im Team hält die Kanzlei technisch auf dem neuesten Stand.",
+      "trigger": "Digital-Spezialist"
+    },
+    {
+      "id": "digital_partner",
+      "wording": "Ein IT-Partnerunternehmen sorgt für moderne, durchdachte Workflows.",
+      "trigger": "IT-Partnerunternehmen"
+    },
+    {
+      "id": "google_rating",
+      "wording": "4,7 Sterne bei Google",
+      "trigger": "Sterne"
+    },
+    {
+      "id": "contact_person",
+      "wording": "Ein fester Ansprechpartner statt Weiterleitung",
+      "short_forms": [
+        "1 fester Ansprechpartner"
+      ],
+      "trigger": "fester? Ansprechpartner"
+    },
+    {
+      "id": "response_time",
+      "wording": "Rückmeldung innerhalb von 48 Stunden",
+      "short_forms": [
+        "48 h Rückmeldung",
+        "Rückmeldung in 48 Stunden"
+      ],
+      "trigger": "(Rückmeldung|Antwort) (innerhalb|in) "
+    },
+    {
+      "id": "switching",
+      "wording": "Wechsel zu uns in 21 Tagen, vollständig digital",
+      "short_forms": [
+        "21 Tage Wechsel"
+      ],
+      "trigger": "Wechsel zu uns"
+    },
+    {
+      "id": "first_consultation",
+      "wording": "Das Erstgespräch ist kostenfrei und unverbindlich.",
+      "trigger": "(Erstgespräch|erste Gespräch) ist"
+    },
+    {
+      "id": "emergencies",
+      "wording": "Kurzfristige Termine, in der Regel innerhalb von zwei Werktagen",
+      "trigger": "Kurzfristige Termine"
+    },
+    {
+      "id": "tax_advisor",
+      "wording": "Dr. Anna Lindqvist, Steuerberaterin und Inhaberin",
+      "trigger": "Lindqvist"
+    },
+    {
+      "id": "phone",
+      "wording": "+49 30 1234 56 789",
+      "trigger": "\\+49"
+    },
+    {
+      "id": "email",
+      "wording": "info@steuerkanzlei.example",
+      "trigger": "@steuerkanzlei\\.example"
+    }
+  ]
+}
