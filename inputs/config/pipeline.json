@@ -1,0 +1,41 @@
+{
+  "modules": [
+    "src.agents.seo_strategy_agent",
+    "src.agents.topic_map_agent",
+    "src.agents.briefing_agent",
+    "src.agents.content_agent",
+    "src.agents.brand_agent",
+    "src.agents.seo_qa_agent",
+    "src.agents.publisher_agent"
+  ],
+  "agents": [
+    {
+      "name": "seo_strategy_agent",
+      "role": "standard"
+    },
+    {
+      "name": "topic_map_agent",
+      "role": "standard"
+    },
+    {
+      "name": "briefing_agent",
+      "role": "briefing"
+    },
+    {
+      "name": "content_agent",
+      "role": "content"
+    },
+    {
+      "name": "brand_agent",
+      "role": "brand"
+    },
+    {
+      "name": "seo_qa_agent",
+      "role": "seo"
+    },
+    {
+      "name": "publisher_agent",
+      "role": "export"
+    }
+  ]
+}
