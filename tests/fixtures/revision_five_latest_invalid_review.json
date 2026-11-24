@@ -1,0 +1,118 @@
+{
+  "unit_id": "page",
+  "coverage_complete": true,
+  "passed": false,
+  "findings": [
+    {
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "**Über 12 Jahre Erfahrung in der digitalen Steuerberatung.**",
+      "rule": "contradiction",
+      "category": "content_defect",
+      "severity": "blocking",
+      "message_en": "The approved brand fact is lowercase 'über 12 Jahre Erfahrung in der digitalen Steuerberatung'; the draft capitalizes 'Über' and adds bold emphasis, deviating from the approved wording.",
+      "action_en": "Use the approved wording exactly as configured, including lowercase 'über', and remove the added emphasis if it changes the approved form.",
+      "evidence_refs": [
+        "brand-fact:digital_experience"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "brand-fact:digital_experience",
+          "quote": "über 12 Jahre Erfahrung in der digitalen Steuerberatung"
+        }
+      ],
+      "problem": "Die Kennzahl weicht durch Großschreibung und Hervorhebung von der freigegebenen Formulierung ab.",
+      "correction": "Verwenden Sie die freigegebene Formulierung unverändert: „über 12 Jahre Erfahrung in der digitalen Steuerberatung“."
+    },
+    {
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "Ein Digital-Spezialist im Team hält die Kanzlei technisch auf dem neuesten Stand. Ein IT-Partnerunternehmen sorgt für moderne, durchdachte Workflows.",
+      "rule": "editorial",
+      "category": "content_defect",
+      "severity": "blocking",
+      "message_en": "The mandatory L10 sentence combining digital experience, digital specialist and digitalization company is present, but the digital-experience element is separated into a bolded standalone line above, breaking the required combined statement.",
+      "action_en": "Integrate the approved digital-experience wording into the required L10 statement so all three elements appear together as specified.",
+      "evidence_refs": [
+        "brand-fact:digital_experience",
+        "brand-fact:online_marketer",
+        "brand-fact:digital_partner"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "brand-fact:online_marketer",
+          "quote": "Ein Digital-Spezialist im Team hält die Kanzlei technisch auf dem neuesten Stand."
+        },
+        {
+          "evidence_ref": "brand-fact:digital_partner",
+          "quote": "Ein IT-Partnerunternehmen sorgt für moderne, durchdachte Workflows."
+        }
+      ],
+      "problem": "Der Pflichtsatz zu digitaler Erfahrung, Digital-Spezialist und IT-Partnerunternehmen ist nicht zusammenhängend, da die Erfahrungsangabe abgetrennt darüber steht.",
+      "correction": "Fügen Sie die freigegebene Erfahrungsangabe in den Pflichtsatz ein, sodass alle drei Elemente gemeinsam erscheinen."
+    },
+    {
+      "module_id": "L14",
+      "claim_id": null,
+      "quote": "Weitere Hinweise finden Sie auf unserer bestehenden Seite zur [Zusammenarbeit mit Lexware Office](https://steuerkanzlei.example/lexware-office-zusammenarbeit/).",
+      "rule": "editorial",
+      "category": "content_defect",
+      "severity": "blocking",
+      "message_en": "L14 contains only two verified guide links, meeting the minimum of two, but the same Lexware Office destination is duplicated across two FAQ answers, so distinct guide coverage is effectively one.",
+      "action_en": "Replace the duplicate Lexware Office link with a distinct verified guide destination or consolidate the two answers so two distinct guide links remain.",
+      "evidence_refs": [
+        "page-62",
+        "page-65"
+      ],
+      "source_quotes": [],
+      "problem": "Der Lexware-Office-Link erscheint doppelt in L14, sodass faktisch nur ein unterschiedliches Ratgeberziel vorliegt.",
+      "correction": "Entfernen Sie die Dopplung oder ergänzen Sie ein zweites, unterschiedliches verifiziertes Ratgeberziel."
+    },
+    {
+      "module_id": "L05",
+      "claim_id": null,
+      "quote": "| Finanzbuchhaltung für Einzelunternehmen | [PREIS FEHLT] |",
+      "rule": "editorial",
+      "category": "release_prerequisite",
+      "severity": "release",
+      "message_en": "The pricing table still contains pending price placeholders; this is a tracked release prerequisite, not a prose defect.",
+      "action_en": "Replace the placeholders with approved price data before release; do not invent values.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Die Preistabelle enthält noch offene Preisplatzhalter.",
+      "correction": "Ersetzen Sie die Platzhalter vor der Veröffentlichung durch freigegebene Preisangaben."
+    },
+    {
+      "module_id": "L08",
+      "claim_id": null,
+      "quote": "**[FREIGEGEBENES STATEMENT FEHLT]**",
+      "rule": "editorial",
+      "category": "release_prerequisite",
+      "severity": "release",
+      "message_en": "The personal statement placeholder is a declared pending release input and must be filled with an approved, attributed statement before publication.",
+      "action_en": "Obtain the approved statement wording and attribution before release; do not invent a quotation.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Das persönliche Statement ist noch nicht freigegeben.",
+      "correction": "Reichen Sie vor der Veröffentlichung Wortlaut und Zuschreibung des freigegebenen Statements nach."
+    },
+    {
+      "module_id": "L16",
+      "claim_id": null,
+      "quote": "Bis zur redaktionellen Freigabe werden deshalb keine Kanalverlinkungen ausgegeben.",
+      "rule": "editorial",
+      "category": "release_prerequisite",
+      "severity": "release",
+      "message_en": "The social-media bar lacks confirmed channels and verified URLs; this review-only text must not be published as the final public version.",
+      "action_en": "Supply maintained channels with verified URLs or omit the bar before release; do not publish the review note.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Für die Social-Media-Leiste fehlen bestätigte Kanäle und verifizierte Zieladressen.",
+      "correction": "Liefern Sie gepflegte Kanäle mit verifizierten URLs nach oder lassen Sie die Leiste vor der Veröffentlichung entfallen."
+    }
+  ],
+  "warnings": [
+    "Lohnbuchhaltung, Jahresabschlüsse und Steuerplanung aus dem Originalbestand sind nicht enthalten; die Erweiterung ist nicht freigegeben und bleibt eine offene Redaktionsentscheidung.",
+    "Standort, Terminformen und Mandatsprozess sind noch zu bestätigen."
+  ]
+}
