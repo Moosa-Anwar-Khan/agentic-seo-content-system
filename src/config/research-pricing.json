@@ -1,0 +1,32 @@
+{
+  "deepseek/deepseek-flash": {
+    "input": 0.3,
+    "output": 1.2,
+    "verified_at": "2026-10-13",
+    "source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "basis": "peak uncached USD per million tokens"
+  },
+  "openai/gpt-5.4-mini": {
+    "input": 0.75,
+    "output": 4.5,
+    "verified_at": "2026-10-16",
+    "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "basis": "uncached standard USD per million tokens; 25% reservation margin is added in code"
+  },
+  "anthropic/claude-sonnet-5-5": {
+    "input": 2,
+    "output": 10,
+    "verified_at": "2026-10-16",
+    "source": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview"
+  },
+  "openai/gpt-6.1-sol": {
+    "input": 2,
+    "output": 10,
+    "long_context_threshold": 272000,
+    "long_input": 4,
+    "long_output": 15,
+    "verified_at": "2026-10-20",
+    "source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "basis": "Standard uncached USD per million tokens; long-context tier applies to the full request above 272K input; 25% reservation margin added in code"
+  }
+}
