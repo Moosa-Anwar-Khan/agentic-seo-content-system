@@ -1,0 +1,281 @@
+{
+  "pack_id": "landing",
+  "version": "1.2.1-rs.2026-10-17",
+  "source_file": "Brand-Guideline_Landing-Pages_ENGLISH.md",
+  "source_version": "fictional-sample-1.0",
+  "decisions": "docs/COMBINED_ARCHITECTURE.md",
+  "modules": [
+    {
+      "id": "L00",
+      "name": "Hinweisleiste",
+      "rule": "nur mit echtem, aktuellem Anlass"
+    },
+    {
+      "id": "L01",
+      "name": "Hero",
+      "rule": "H1, Nutzen, Google-Bewertung, primärer CTA mit Microcopy"
+    },
+    {
+      "id": "L02",
+      "name": "Problem-Hook",
+      "rule": "„Erkennen Sie sich wieder?“"
+    },
+    {
+      "id": "L03",
+      "name": "Relevanz",
+      "rule": "„Für wen ist … relevant?“"
+    },
+    {
+      "id": "L04",
+      "name": "Leistungsumfang",
+      "rule": "„Was übernimmt ein Steuerberater bei …?“"
+    },
+    {
+      "id": "L04a",
+      "name": "Hauptinfografik",
+      "rule": "Infografik im Stil „Anleitung“"
+    },
+    {
+      "id": "L04b",
+      "name": "Tool-Zusammenarbeit",
+      "rule": "nur Tool-Seiten"
+    },
+    {
+      "id": "L05",
+      "name": "Preise",
+      "rule": "Preiskarte mit 2-4 Zeilen „Variante → ab X €“, StBVV-Badge, Fußnote; nur Preise aus der Preistabelle"
+    },
+    {
+      "id": "L06",
+      "name": "Kontext-Kacheln",
+      "rule": "Fristen/Wechsel"
+    },
+    {
+      "id": "L07",
+      "name": "Ablauf",
+      "rule": "Ihr Weg zu uns"
+    },
+    {
+      "id": "L08",
+      "name": "Statement der Steuerberaterin",
+      "rule": "Dr. Anna Lindqvist",
+      "draft_placeholder": "### Persönliche Einordnung\n\n**[FREIGEGEBENES STATEMENT FEHLT]**\n\nFür diesen Entwurf liegt noch kein freigegebenes persönliches Statement vor. Wortlaut und Zuschreibung sind vor der Veröffentlichung freizugeben."
+    },
+    {
+      "id": "L09",
+      "name": "Leistungsversprechen",
+      "rule": "„Das übernehmen wir für Sie“"
+    },
+    {
+      "id": "L10",
+      "name": "Digital & modern",
+      "rule": "3 Kennzahlen; Pflichtsatz zu digitaler Erfahrung, Digital-Spezialist und IT-Partnerunternehmen",
+      "brand_fact_ids": [
+        "digital_experience",
+        "online_marketer",
+        "digital_partner",
+        "contact_person",
+        "response_time",
+        "switching"
+      ]
+    },
+    {
+      "id": "L11",
+      "name": "Team & Erfahrung",
+      "rule": "Pflicht auf Branchen- und Standortseiten"
+    },
+    {
+      "id": "L12",
+      "name": "Bewertungen",
+      "rule": "nur echte Bewertungen im Wortlaut, Plattform korrekt (K7: config/brand/reviews.json)"
+    },
+    {
+      "id": "L13",
+      "name": "Einwände",
+      "rule": "„Typische Bedenken“"
+    },
+    {
+      "id": "L14",
+      "name": "FAQ + Ratgeber-Links",
+      "rule": "6-8 Fragen, Pflichtfragen Kosten, Vorbereitung, Fristen, Wechsel, unvollständige Unterlagen; 2-4 Ratgeber-Links darunter"
+    },
+    {
+      "id": "L15",
+      "name": "Abschluss-CTA",
+      "rule": "primärer CTA"
+    },
+    {
+      "id": "L16",
+      "name": "Social-Media-Leiste",
+      "rule": "nur gepflegte Kanäle (K4)"
+    }
+  ],
+  "matrix": {
+    "landing:service": {
+      "R": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L04a",
+        "L05",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ]
+    },
+    "landing:industry": {
+      "R": [
+        "L01",
+        "L02",
+        "L04",
+        "L04a",
+        "L05",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ]
+    },
+    "landing:tool": {
+      "R": [
+        "L01",
+        "L02",
+        "L04a",
+        "L04b",
+        "L05",
+        "L07",
+        "L09",
+        "L10",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ]
+    },
+    "landing:legal_form": {
+      "R": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L04a",
+        "L05",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ]
+    },
+    "landing:price": {
+      "R": [
+        "L01",
+        "L02",
+        "L04a",
+        "L05",
+        "L07",
+        "L08",
+        "L10",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ]
+    },
+    "landing:location": {
+      "R": [
+        "L01",
+        "L02",
+        "L04",
+        "L04a",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16"
+      ]
+    }
+  },
+  "fixed_order": {
+    "first": [
+      "L01",
+      "L02"
+    ],
+    "last": [
+      "L14",
+      "L15",
+      "L16"
+    ]
+  },
+  "forbidden": [
+    "ganzheitlich",
+    "maßgeschneidert",
+    "innovativ",
+    "führend",
+    "Ihr starker Partner",
+    "Jetzt sofort zuschlagen",
+    "Nur noch heute",
+    "Verpassen Sie nicht",
+    "hier klicken"
+  ],
+  "cta_target": "https://steuerkanzlei.example/mandant-werden/",
+  "min_cta_links": 4,
+  "microcopy": "Unverbindlich · Kostenfrei · Antwort in 48 Stunden",
+  "guide_links": {
+    "min": 2,
+    "max": 4,
+    "only_from_module": "L14"
+  },
+  "external_domains": [
+    "gesetze-im-internet.de",
+    "bundesfinanzministerium.de",
+    "bundesfinanzhof.de",
+    "elster.de"
+  ],
+  "social_channels": [
+    "linkedin",
+    "instagram"
+  ],
+  "seo": {
+    "title_max": 60,
+    "description_min": 140,
+    "description_max": 155,
+    "keyword_min_h2": 2,
+    "min_words": 600,
+    "max_words": 3000
+  },
+  "schema_types": [
+    "Service",
+    "BreadcrumbList"
+  ],
+  "graphic_checklist": [
+    "Hauptinfografik im Stil „Anleitung“, hoher Detailgrad, passend zur H1 (L04a)",
+    "Aus eigenen Blogartikeln und amtlichen Quellen erstellt, Wort für Wort geprüft",
+    "Alt-Text, Dateiname, WebP und Schema gesetzt"
+  ],
+  "price_placeholder": "ab [Preis folgt] €"
+}
