@@ -1,0 +1,88 @@
+{
+  "unit_id": "page",
+  "coverage_complete": true,
+  "passed": false,
+  "findings": [
+    {
+      "module_id": "L14",
+      "claim_id": null,
+      "quote": "Wenn Sie sevDesk nutzen oder prüfen, finden Sie Hinweise in unserem",
+      "rule": "links",
+      "category": "content_defect",
+      "severity": "blocking",
+      "message_en": "The sevDesk guide link is placed under an unrelated FAQ answer about digital bookkeeping and is not tied to the page's stated services.",
+      "action_en": "Remove the sevDesk link from this FAQ or relocate it to a thematically matching section; keep the two Lexware Office guide links to satisfy the landing-page minimum.",
+      "evidence_refs": [
+        "page-65"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "page-65",
+          "quote": "SevDesk Steuerberater finden"
+        }
+      ],
+      "problem": "Der sevDesk-Leitfaden wird im FAQ-Abschnitt zu digitaler Buchhaltung als Hinweis angeboten, obwohl die Seite selbst keine sevDesk-Zusammenarbeit als Leistung darstellt und die FAQ-Frage sich nicht auf sevDesk bezieht. Der Link führt thematisch vom Einzelunternehmen-Thema weg.",
+      "correction": "Entfernen Sie den sevDesk-Link aus dieser FAQ oder verschieben Sie ihn in einen thematisch passenden Abschnitt. Belassen Sie in L14 die beiden Lexware-Office-Verweise, damit die Mindestanzahl von zwei Leitfäden erfüllt bleibt."
+    },
+    {
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "Digitale Steuerberatung für Einzelunternehmer beginnt mit der Frage",
+      "rule": "editorial",
+      "category": "suggestion",
+      "severity": "suggestion",
+      "message_en": "The section opens with a generic statement before the concrete figures; this is a minor stylistic preference, not a defect.",
+      "action_en": "Optionally tighten the opening sentence to lead directly with bookkeeping and software organization.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Der Abschnitt beginnt mit einer allgemeinen Aussage zur digitalen Steuerberatung, bevor die konkreten Kennzahlen und Angaben zur Zusammenarbeit folgen. Das ist stilistisch zulässig, aber weniger prägnant als ein direkter Einstieg.",
+      "correction": "Erwägen Sie einen direkteren Einstieg, der sofort die Belegverwaltung und die vorhandene Software anspricht."
+    },
+    {
+      "module_id": "L05",
+      "claim_id": null,
+      "quote": "[PREIS FEHLT]",
+      "rule": "pending_input",
+      "category": "release_prerequisite",
+      "severity": "release",
+      "message_en": "Approved prices for bookkeeping and tax returns are missing; the table contains only placeholders.",
+      "action_en": "Insert approved pricing or a permissible fee statement before release; do not publish the draft until then.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Für Finanzbuchhaltung und Steuererklärungen liegen keine freigegebenen Preisangaben vor. Die Tabelle enthält nur Platzhalter.",
+      "correction": "Vor Veröffentlichung freigegebene Preise oder eine zulässige Vergütungsangabe eintragen; bis dahin den Entwurf nicht veröffentlichen."
+    },
+    {
+      "module_id": "L08",
+      "claim_id": null,
+      "quote": "[FREIGEGEBENES STATEMENT FEHLT]",
+      "rule": "pending_input",
+      "category": "release_prerequisite",
+      "severity": "release",
+      "message_en": "The personal statement is neither approved nor attributed.",
+      "action_en": "Supply approved wording, authorship and any image rights before release.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Das persönliche Statement der Steuerberaterin ist nicht freigegeben und nicht zugeschrieben.",
+      "correction": "Freigegebenen Wortlaut, Urheberschaft und gegebenenfalls Bildrechte vor Veröffentlichung nachreichen."
+    },
+    {
+      "module_id": "L16",
+      "claim_id": null,
+      "quote": "Für diese Leiste fehlen bestätigte, gepflegte Social-Media-Kanäle",
+      "rule": "pending_input",
+      "category": "release_prerequisite",
+      "severity": "release",
+      "message_en": "Verified, maintained social media channels and URLs are missing for the social bar.",
+      "action_en": "Add verified channel URLs before release or omit the bar; do not publish the review note as final copy.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Für die Social-Media-Leiste fehlen gepflegte Kanäle mit verifizierten Zieladressen.",
+      "correction": "Verifizierte Kanal-URLs vor Veröffentlichung ergänzen oder die Leiste ausblenden; den Prüftext nicht als Endfassung veröffentlichen."
+    }
+  ],
+  "warnings": [
+    "Automatisierte QA ersetzt keine fachliche oder redaktionelle Freigabe.",
+    "Die Prüfung der Linkrelevanz stützt sich auf die gespeicherten Zieltexte; eine inhaltliche Neubewertung der Zielseiten ist nicht erfolgt."
+  ]
+}
