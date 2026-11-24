@@ -1,0 +1,15 @@
+{
+  "source": "Fiktive Beispielpreise für das öffentliche Showcase; fehlende Preise bleiben Platzhalter",
+  "statement_stbvv": "Die Vergütung richtet sich nach der Steuerberatervergütungsverordnung (StBVV).",
+  "footnote": "Alle Preise zzgl. MwSt. Pauschalangebote möglich.",
+  "rows": [
+    {"service": "Jahresabschluss", "variant": "EÜR Freiberufler", "price": "ab 500 €", "stbvv": true},
+    {"service": "Jahresabschluss", "variant": "EÜR Einzelunternehmen", "price": "ab 690 €", "stbvv": true},
+    {"service": "Jahresabschluss", "variant": "Bilanz GmbH klein", "price": "ab 1.250 €", "stbvv": true},
+    {"service": "Jahresabschluss", "variant": "Bilanz GmbH mittel", "price": "ab 2.100 €", "stbvv": true},
+    {"service": "Einkommensteuererklärung", "variant": "privat", "price": null, "stbvv": true},
+    {"service": "Einkommensteuererklärung", "variant": "betrieblich", "price": null, "stbvv": true},
+    {"service": "Finanzbuchhaltung", "variant": "monatlich", "price": null, "stbvv": false},
+    {"service": "Lohnbuchhaltung", "variant": "pro Mitarbeiter/Monat", "price": null, "stbvv": false}
+  ]
+}
