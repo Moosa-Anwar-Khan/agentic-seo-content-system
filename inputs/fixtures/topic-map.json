@@ -1,0 +1,577 @@
+{
+  "seed_id": "immobiliensteuerberater",
+  "seed_title": "Immobiliensteuerberater",
+  "pillars": [
+    {
+      "id": "vermietung-einkommensteuer",
+      "title": "Einkünfte aus Vermietung und Einkommensteuer",
+      "keyword": "vermietung einkommensteuer",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "anlage-v-checkliste",
+          "title": "Anlage V: Unterlagen für mehrere Mietobjekte",
+          "keyword": "anlage v unterlagen",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "leerstand-vermietungsabsicht",
+          "title": "Leerstand und dokumentierte Vermietungsabsicht",
+          "keyword": "leerstand werbungskosten",
+          "kind": "blog",
+          "intent": "informational"
+        },
+        {
+          "id": "verbilligte-vermietung",
+          "title": "Verbilligte Vermietung: Prüfungsbedarf erkennen",
+          "keyword": "verbilligte vermietung",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "id": "afa-immobilien",
+      "title": "AfA bei vermieteten Immobilien",
+      "keyword": "afa immobilien",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "afa-bemessungsgrundlage",
+          "title": "Gebäudewert und AfA-Bemessungsgrundlage",
+          "keyword": "afa bemessungsgrundlage",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "afa-unterlagen",
+          "title": "AfA-Unterlagen beim Eigentümerwechsel",
+          "keyword": "afa eigentuemerwechsel",
+          "kind": "blog",
+          "intent": "informational"
+        },
+        {
+          "id": "sonderabschreibung-pruefung",
+          "title": "Sonderabschreibungen: Voraussetzungen prüfen",
+          "keyword": "sonderabschreibung mietwohnungen",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "id": "kaufpreisaufteilung",
+      "title": "Kaufpreisaufteilung beim Immobilienkauf",
+      "keyword": "kaufpreisaufteilung immobilie",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "grund-und-gebaeude",
+          "title": "Grund und Boden vom Gebäudewert unterscheiden",
+          "keyword": "grund und boden gebaeudewert",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "kaufnebenkosten",
+          "title": "Kaufnebenkosten richtig zuordnen",
+          "keyword": "kaufnebenkosten immobilie steuer",
+          "kind": "blog",
+          "intent": "informational"
+        },
+        {
+          "id": "kaufvertrag-steuercheck",
+          "title": "Steuerliche Fragen vor dem Kaufvertrag",
+          "keyword": "immobilienkauf steuerberatung",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "id": "werbungskosten-vermietung",
+      "title": "Werbungskosten und Instandhaltung bei Vermietung",
+      "keyword": "werbungskosten vermietung",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "werbungskosten-liste",
+          "title": "Werbungskosten Vermietung: strukturierte Liste",
+          "keyword": "werbungskosten vermietung liste",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "renovierung-einordnung",
+          "title": "Renovierung: Aufwand oder Herstellungskosten?",
+          "keyword": "renovierung vermietung steuer",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "hausgeld-ruecklage",
+          "title": "Hausgeld und Erhaltungsrücklage auseinanderhalten",
+          "keyword": "hausgeld erhaltungsruecklage steuer",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "id": "finanzierung-immobilien",
+      "title": "Finanzierung vermieteter Immobilien steuerlich einordnen",
+      "keyword": "vermietung finanzierung steuer",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "zinsen-tilgung",
+          "title": "Schuldzinsen und Tilgung unterscheiden",
+          "keyword": "schuldzinsen vermietung tilgung",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "darlehen-zuordnung",
+          "title": "Darlehensmittel einem Objekt zuordnen",
+          "keyword": "darlehen zuordnung vermietung",
+          "kind": "blog",
+          "intent": "informational"
+        },
+        {
+          "id": "umschuldung-unterlagen",
+          "title": "Umschuldung: Dokumentation für die Beratung",
+          "keyword": "umschuldung vermietung steuer",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "id": "eigentumsstruktur",
+      "title": "Eigentumsstrukturen für Immobilieninvestoren",
+      "keyword": "immobilien eigentumsstruktur",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "miteigentum-organisation",
+          "title": "Gemeinsames Eigentum: Zuständigkeiten und Unterlagen",
+          "keyword": "miteigentum vermietung steuer",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "privat-gesellschaft",
+          "title": "Privat halten oder Gesellschaft prüfen?",
+          "keyword": "immobilien privat oder gesellschaft",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "uebertragung-planung",
+          "title": "Übertragungen frühzeitig steuerlich besprechen",
+          "keyword": "immobilie uebertragen steuerberatung",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-steuerplanung",
+      "title": "Steuerplanung für ein wachsendes Immobilienportfolio",
+      "keyword": "immobilienportfolio steuerplanung",
+      "intent": "informational",
+      "clusters": [
+        {
+          "id": "jahresplanung-vermieter",
+          "title": "Jahresplanung für Vermieter mit mehreren Objekten",
+          "keyword": "vermieter steuer jahresplanung",
+          "kind": "cluster",
+          "intent": "informational"
+        },
+        {
+          "id": "digitaler-objektordner",
+          "title": "Digitale Belege: ein Ordner je Mietobjekt",
+          "keyword": "vermietung belege digital",
+          "kind": "blog",
+          "intent": "informational"
+        },
+        {
+          "id": "naechster-kauf",
+          "title": "Nächster Immobilienkauf: Fragen an die Steuerberatung",
+          "keyword": "immobilienkauf steuercheck",
+          "kind": "blog",
+          "intent": "informational"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "immobiliensteuerberater",
+      "target": "vermietung-einkommensteuer",
+      "anchor": "Einkünfte aus Vermietung und Einkommensteuer",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "vermietung-einkommensteuer",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "vermietung-einkommensteuer",
+      "target": "anlage-v-checkliste",
+      "anchor": "Anlage V: Unterlagen für mehrere Mietobjekte",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "anlage-v-checkliste",
+      "target": "vermietung-einkommensteuer",
+      "anchor": "Einkünfte aus Vermietung und Einkommensteuer",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "vermietung-einkommensteuer",
+      "target": "leerstand-vermietungsabsicht",
+      "anchor": "Leerstand und dokumentierte Vermietungsabsicht",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "leerstand-vermietungsabsicht",
+      "target": "vermietung-einkommensteuer",
+      "anchor": "Einkünfte aus Vermietung und Einkommensteuer",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "vermietung-einkommensteuer",
+      "target": "verbilligte-vermietung",
+      "anchor": "Verbilligte Vermietung: Prüfungsbedarf erkennen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "verbilligte-vermietung",
+      "target": "vermietung-einkommensteuer",
+      "anchor": "Einkünfte aus Vermietung und Einkommensteuer",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "immobiliensteuerberater",
+      "target": "afa-immobilien",
+      "anchor": "AfA bei vermieteten Immobilien",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "afa-immobilien",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "afa-immobilien",
+      "target": "afa-bemessungsgrundlage",
+      "anchor": "Gebäudewert und AfA-Bemessungsgrundlage",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "afa-bemessungsgrundlage",
+      "target": "afa-immobilien",
+      "anchor": "AfA bei vermieteten Immobilien",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "afa-immobilien",
+      "target": "afa-unterlagen",
+      "anchor": "AfA-Unterlagen beim Eigentümerwechsel",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "afa-unterlagen",
+      "target": "afa-immobilien",
+      "anchor": "AfA bei vermieteten Immobilien",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "afa-immobilien",
+      "target": "sonderabschreibung-pruefung",
+      "anchor": "Sonderabschreibungen: Voraussetzungen prüfen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "sonderabschreibung-pruefung",
+      "target": "afa-immobilien",
+      "anchor": "AfA bei vermieteten Immobilien",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "immobiliensteuerberater",
+      "target": "kaufpreisaufteilung",
+      "anchor": "Kaufpreisaufteilung beim Immobilienkauf",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "kaufpreisaufteilung",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "kaufpreisaufteilung",
+      "target": "grund-und-gebaeude",
+      "anchor": "Grund und Boden vom Gebäudewert unterscheiden",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "grund-und-gebaeude",
+      "target": "kaufpreisaufteilung",
+      "anchor": "Kaufpreisaufteilung beim Immobilienkauf",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "kaufpreisaufteilung",
+      "target": "kaufnebenkosten",
+      "anchor": "Kaufnebenkosten richtig zuordnen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "kaufnebenkosten",
+      "target": "kaufpreisaufteilung",
+      "anchor": "Kaufpreisaufteilung beim Immobilienkauf",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "kaufpreisaufteilung",
+      "target": "kaufvertrag-steuercheck",
+      "anchor": "Steuerliche Fragen vor dem Kaufvertrag",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "kaufvertrag-steuercheck",
+      "target": "kaufpreisaufteilung",
+      "anchor": "Kaufpreisaufteilung beim Immobilienkauf",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "immobiliensteuerberater",
+      "target": "werbungskosten-vermietung",
+      "anchor": "Werbungskosten und Instandhaltung bei Vermietung",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "werbungskosten-vermietung",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "werbungskosten-vermietung",
+      "target": "werbungskosten-liste",
+      "anchor": "Werbungskosten Vermietung: strukturierte Liste",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "werbungskosten-liste",
+      "target": "werbungskosten-vermietung",
+      "anchor": "Werbungskosten und Instandhaltung bei Vermietung",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "werbungskosten-vermietung",
+      "target": "renovierung-einordnung",
+      "anchor": "Renovierung: Aufwand oder Herstellungskosten?",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "renovierung-einordnung",
+      "target": "werbungskosten-vermietung",
+      "anchor": "Werbungskosten und Instandhaltung bei Vermietung",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "werbungskosten-vermietung",
+      "target": "hausgeld-ruecklage",
+      "anchor": "Hausgeld und Erhaltungsrücklage auseinanderhalten",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "hausgeld-ruecklage",
+      "target": "werbungskosten-vermietung",
+      "anchor": "Werbungskosten und Instandhaltung bei Vermietung",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "immobiliensteuerberater",
+      "target": "finanzierung-immobilien",
+      "anchor": "Finanzierung vermieteter Immobilien steuerlich einordnen",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "finanzierung-immobilien",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "finanzierung-immobilien",
+      "target": "zinsen-tilgung",
+      "anchor": "Schuldzinsen und Tilgung unterscheiden",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "zinsen-tilgung",
+      "target": "finanzierung-immobilien",
+      "anchor": "Finanzierung vermieteter Immobilien steuerlich einordnen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "finanzierung-immobilien",
+      "target": "darlehen-zuordnung",
+      "anchor": "Darlehensmittel einem Objekt zuordnen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "darlehen-zuordnung",
+      "target": "finanzierung-immobilien",
+      "anchor": "Finanzierung vermieteter Immobilien steuerlich einordnen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "finanzierung-immobilien",
+      "target": "umschuldung-unterlagen",
+      "anchor": "Umschuldung: Dokumentation für die Beratung",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "umschuldung-unterlagen",
+      "target": "finanzierung-immobilien",
+      "anchor": "Finanzierung vermieteter Immobilien steuerlich einordnen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "immobiliensteuerberater",
+      "target": "eigentumsstruktur",
+      "anchor": "Eigentumsstrukturen für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "eigentumsstruktur",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "eigentumsstruktur",
+      "target": "miteigentum-organisation",
+      "anchor": "Gemeinsames Eigentum: Zuständigkeiten und Unterlagen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "miteigentum-organisation",
+      "target": "eigentumsstruktur",
+      "anchor": "Eigentumsstrukturen für Immobilieninvestoren",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "eigentumsstruktur",
+      "target": "privat-gesellschaft",
+      "anchor": "Privat halten oder Gesellschaft prüfen?",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "privat-gesellschaft",
+      "target": "eigentumsstruktur",
+      "anchor": "Eigentumsstrukturen für Immobilieninvestoren",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "eigentumsstruktur",
+      "target": "uebertragung-planung",
+      "anchor": "Übertragungen frühzeitig steuerlich besprechen",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "uebertragung-planung",
+      "target": "eigentumsstruktur",
+      "anchor": "Eigentumsstrukturen für Immobilieninvestoren",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "immobiliensteuerberater",
+      "target": "portfolio-steuerplanung",
+      "anchor": "Steuerplanung für ein wachsendes Immobilienportfolio",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "portfolio-steuerplanung",
+      "target": "immobiliensteuerberater",
+      "anchor": "Steuerberatung für Immobilieninvestoren",
+      "reason": "Hub und Pillar verbinden"
+    },
+    {
+      "source": "portfolio-steuerplanung",
+      "target": "jahresplanung-vermieter",
+      "anchor": "Jahresplanung für Vermieter mit mehreren Objekten",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "jahresplanung-vermieter",
+      "target": "portfolio-steuerplanung",
+      "anchor": "Steuerplanung für ein wachsendes Immobilienportfolio",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "portfolio-steuerplanung",
+      "target": "digitaler-objektordner",
+      "anchor": "Digitale Belege: ein Ordner je Mietobjekt",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "digitaler-objektordner",
+      "target": "portfolio-steuerplanung",
+      "anchor": "Steuerplanung für ein wachsendes Immobilienportfolio",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "portfolio-steuerplanung",
+      "target": "naechster-kauf",
+      "anchor": "Nächster Immobilienkauf: Fragen an die Steuerberatung",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "naechster-kauf",
+      "target": "portfolio-steuerplanung",
+      "anchor": "Steuerplanung für ein wachsendes Immobilienportfolio",
+      "reason": "Pillar und vertiefenden Beitrag verbinden"
+    },
+    {
+      "source": "kaufpreisaufteilung",
+      "target": "afa-immobilien",
+      "anchor": "AfA auf Basis des Gebäudewerts",
+      "reason": "Konkreter fachlicher Zusammenhang; im Textkontext setzen"
+    },
+    {
+      "source": "finanzierung-immobilien",
+      "target": "werbungskosten-vermietung",
+      "anchor": "Finanzierungskosten einordnen",
+      "reason": "Konkreter fachlicher Zusammenhang; im Textkontext setzen"
+    },
+    {
+      "source": "portfolio-steuerplanung",
+      "target": "eigentumsstruktur",
+      "anchor": "Eigentumsstruktur prüfen",
+      "reason": "Konkreter fachlicher Zusammenhang; im Textkontext setzen"
+    },
+    {
+      "source": "renovierung-einordnung",
+      "target": "kaufpreisaufteilung",
+      "anchor": "Anschaffungskosten dokumentieren",
+      "reason": "Konkreter fachlicher Zusammenhang; im Textkontext setzen"
+    }
+  ],
+  "assumptions": [
+    "Redaktioneller Plan aus ICP und Briefing; Suchvolumen, Schwierigkeit und Rankings wurden nicht gemessen.",
+    "Geplante Inhalte sind keine bereits veröffentlichten WordPress-Seiten.",
+    "Vorhandenen Werbungskosten-Beitrag aktualisieren und zuordnen; keine konkurrierende Dublette anlegen.",
+    "URLs und Prioritäten vor WordPress-Übernahme anhand echter Daten und bestehender Seiten prüfen."
+  ]
+}
