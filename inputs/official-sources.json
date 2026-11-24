@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/__7.html",
+      "kind": "statute"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/__9.html",
+      "kind": "statute"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/__21.html",
+      "kind": "statute"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/__6.html",
+      "kind": "statute"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/__11.html",
+      "kind": "statute"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/estg/__23.html",
+      "kind": "statute"
+    }
+  ],
+  "topic_packs": [
+    {
+      "keywords": [
+        "afa",
+        "abschreibung",
+        "kaufpreis",
+        "immobiliensteuerberater"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/Berechnung-Aufteilung-Grundstueckskaufpreis.html",
+          "kind": "administrative"
+        }
+      ]
+    }
+  ]
+}
