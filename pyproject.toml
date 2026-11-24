@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-seo-content-system"
+version = "1.2.1"
+description = "Local, review-controlled agentic SEO content workflow (public showcase with fictional sample firm)"
+requires-python = ">=3.11"
+dependencies = [
+  "Markdown>=3.8,<4", "pypdf>=5,<7", "httpx2>=2.13,<3", "pydantic>=2.11,<3", "pydantic-settings>=2.9,<3",
+  "langgraph>=1.0,<2", "langgraph-checkpoint-sqlite>=3.0,<4",
+  "litellm>=1.80,<2", "httpx>=0.28,<1", "beautifulsoup4>=4.13,<5",
+  "fastapi>=0.115,<1", "uvicorn>=0.34,<1", "filelock>=3.18,<4",
+  "google-auth>=2.40,<3", "requests>=2.32,<3", "PyYAML>=6.0,<7", "Pillow>=11,<13",
+  "cryptography>=44,<51", "reportlab>=4,<5", "tzdata>=2026.1"
+]
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<10"]
+postgres = ["psycopg[binary]>=3.2,<4", "langgraph-checkpoint-postgres>=3.0,<4"]
+[tool.setuptools.packages.find]
+include = ["src*"]
+[tool.setuptools.package-data]
+src = ["assets/brand/*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
