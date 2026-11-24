@@ -1,0 +1,11 @@
+{
+  "id": "sole_traders",
+  "name": "Sole traders — approved existing service details",
+  "description": "Einzelunternehmer. Verwenden Sie ausschließlich die auf der bestehenden Muster-Leistungsseite belegten Angaben zu Finanzbuchhaltung, Steuererklärungen und digitaler Zusammenarbeit. Die Freigabe dieser Unternehmensangaben ersetzt keine fachliche oder redaktionelle Inhaltsfreigabe.",
+  "goals": ["Verständliche Darstellung der vorhandenen Leistungen für Einzelunternehmen", "Belegte, gezielte Verbesserung der vorhandenen Leistungsseite"],
+  "services": ["Finanzbuchhaltung für Einzelunternehmen", "Steuererklärungen für Einzelunternehmen", "Digitale Zusammenarbeit und Belegverwaltung"],
+  "preferred_traits": ["Digitale Zusammenarbeit"],
+  "seed_topic": "Steuerberater für Einzelunternehmen",
+  "drafting_approved": true,
+  "approved_fact_sources": ["https://steuerkanzlei.example/zielgruppen/einzelunternehmen/"]
+}
