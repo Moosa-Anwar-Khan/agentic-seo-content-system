@@ -1,0 +1,25 @@
+{
+  "id": "icp_1_buy_and_hold",
+  "name": "Private Immobilieninvestoren – Buy & Hold",
+  "description": "Private Immobilieninvestoren mit mindestens zwei vermieteten Objekten oder einem Objekt und klarer Absicht, das Portfolio zu erweitern.",
+  "minimum_rented_properties": 2,
+  "goals": [
+    "Langfristiger Vermögensaufbau",
+    "Planbare steuerliche Begleitung",
+    "Portfolioentwicklung"
+  ],
+  "services": [
+    "Einkommensteuer",
+    "Anlage V",
+    "AfA",
+    "Kaufpreisaufteilung",
+    "Finanzierung",
+    "Eigentumsstruktur"
+  ],
+  "preferred_traits": [
+    "Digitale Belege",
+    "Rechtzeitige Mitwirkung",
+    "Vorausschauende Planung"
+  ],
+  "seed_topic": "Immobiliensteuerberater"
+}
