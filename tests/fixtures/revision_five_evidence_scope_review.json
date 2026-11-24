@@ -1,0 +1,208 @@
+{
+  "unit_id": "page",
+  "coverage_complete": true,
+  "passed": false,
+  "findings": [
+    {
+      "requirement_id": "contradiction",
+      "material_impact": "Die Seite nennt zwei unterschiedliche verbindliche Rückmeldezeiten (48 Stunden im Entwurf, 2 Stunden auf der bestehenden Zielseite). Interessenten erhalten dadurch widersprüchliche Erwartungen zur Erreichbarkeit.",
+      "metadata_field": null,
+      "conflicting_passages": [
+        {
+          "module_id": "L10",
+          "quote": "- **Rückmeldung innerhalb von 48 Stunden**"
+        },
+        {
+          "module_id": "page-9",
+          "quote": "Antwort in 2 Stunden – zugesagt."
+        }
+      ],
+      "severity": "blocking",
+      "category": "content_defect",
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "- **Rückmeldung innerhalb von 48 Stunden**",
+      "rule": "contradiction",
+      "message_en": "The draft promises a reply within 48 hours, while the existing official page promises a reply within 2 hours. These are materially different response-time commitments.",
+      "action_en": "Align the response-time statement with the approved brand fact and the existing page, or remove the conflicting commitment.",
+      "evidence_refs": [
+        "brand-fact:response_time",
+        "page-9"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "brand-fact:response_time",
+          "quote": "Rückmeldung innerhalb von 48 Stunden"
+        },
+        {
+          "evidence_ref": "page-9",
+          "quote": "Antwort in 2 Stunden – zugesagt."
+        }
+      ],
+      "problem": "Der Entwurf verspricht eine Rückmeldung innerhalb von 48 Stunden, die bestehende offizielle Seite dagegen innerhalb von 2 Stunden.",
+      "correction": "Vereinheitlichen Sie die Rückmeldezeit mit der freigegebenen Markenangabe und der bestehenden Seite oder entfernen Sie die widersprüchliche Zusage."
+    },
+    {
+      "requirement_id": "contradiction",
+      "material_impact": "Die bestehende Zielseite garantiert eine Antwort innerhalb von 48 Stunden, nennt an anderer Stelle aber 48 Stunden. Der Entwurf übernimmt nur eine der beiden Angaben, wodurch die tatsächliche Erreichbarkeitszusage unklar bleibt.",
+      "metadata_field": null,
+      "conflicting_passages": [
+        {
+          "module_id": "page-9",
+          "quote": "Antwort innerhalb von 48 Stunden garantiert"
+        },
+        {
+          "module_id": "page-9",
+          "quote": "Wir antwortent innerhalb von 48 Stunden"
+        }
+      ],
+      "severity": "blocking",
+      "category": "content_defect",
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "- **Rückmeldung innerhalb von 48 Stunden**",
+      "rule": "contradiction",
+      "message_en": "The existing official page itself states both a guaranteed 24-hour reply and a 48-hour reply. The draft adopts only one figure, leaving the actual commitment unresolved.",
+      "action_en": "Confirm the single approved response time and use it consistently; do not carry over conflicting figures.",
+      "evidence_refs": [
+        "brand-fact:response_time",
+        "page-9"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "page-9",
+          "quote": "Antwort innerhalb von 48 Stunden garantiert"
+        },
+        {
+          "evidence_ref": "page-9",
+          "quote": "Wir antwortent innerhalb von 48 Stunden"
+        }
+      ],
+      "problem": "Die bestehende Seite enthält selbst widersprüchliche Rückmeldezeiten (48 Stunden garantiert gegenüber 48 Stunden), und der Entwurf löst diesen Widerspruch nicht auf.",
+      "correction": "Bestätigen Sie eine einzige freigegebene Rückmeldezeit und verwenden Sie diese durchgängig."
+    },
+    {
+      "requirement_id": "contradiction",
+      "material_impact": "Der Entwurf stellt den Wechsel in 21 Tagen als vollständig digital dar, während die bestehende Seite für die Datenübertragung keine Frist nennt und den Ablauf offen lässt. Interessenten können den tatsächlichen Wechselaufwand falsch einschätzen.",
+      "metadata_field": null,
+      "conflicting_passages": [
+        {
+          "module_id": "L10",
+          "quote": "- **Wechsel zu uns in 21 Tagen, vollständig digital**"
+        },
+        {
+          "module_id": "page-9",
+          "quote": "Bei einem Kanzleiwechsel übernehmen wir die Datenübertragung für Sie."
+        }
+      ],
+      "severity": "blocking",
+      "category": "content_defect",
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "- **Wechsel zu uns in 21 Tagen, vollständig digital**",
+      "rule": "contradiction",
+      "message_en": "The draft promises a fully digital switch within 21 days, while the existing page describes the data transfer without any such timeframe. The two statements give materially different expectations about the switching process.",
+      "action_en": "Reconcile the 14-day switching claim with the existing page or remove the unsupported timeframe.",
+      "evidence_refs": [
+        "brand-fact:switching",
+        "page-9"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "brand-fact:switching",
+          "quote": "Wechsel zu uns in 21 Tagen, vollständig digital"
+        },
+        {
+          "evidence_ref": "page-9",
+          "quote": "Bei einem Kanzleiwechsel übernehmen wir die Datenübertragung für Sie."
+        }
+      ],
+      "problem": "Der Entwurf verspricht einen Wechsel in 21 Tagen vollständig digital, die bestehende Seite beschreibt die Datenübertragung ohne eine solche Frist.",
+      "correction": "Stimmen Sie die 14-Tage-Aussage mit der bestehenden Seite ab oder entfernen Sie die nicht belegte Frist."
+    },
+    {
+      "requirement_id": "contradiction",
+      "material_impact": "Der Entwurf behauptet, die Kanzlei sei durch einen Digital-Spezialist und ein IT-Partnerunternehmen digital auf dem neuesten Stand. Die bestehende Seite belegt diese personelle und organisatorische Aussage nicht. Ohne Beleg ist die Aussage eine nicht gestützte Geschäftsbehauptung.",
+      "metadata_field": null,
+      "conflicting_passages": [
+        {
+          "module_id": "L10",
+          "quote": "Ein Digital-Spezialist im Team hält die Kanzlei technisch auf dem neuesten Stand. Ein IT-Partnerunternehmen sorgt für moderne, durchdachte Workflows."
+        },
+        {
+          "module_id": "page-9",
+          "quote": "Mit digitalen Abläufen und Branchenwissen schaffen wir übersichtliche Zahlen für Ihre Planung."
+        }
+      ],
+      "severity": "blocking",
+      "category": "content_defect",
+      "module_id": "L10",
+      "claim_id": null,
+      "quote": "Ein Digital-Spezialist im Team hält die Kanzlei technisch auf dem neuesten Stand. Ein IT-Partnerunternehmen sorgt für moderne, durchdachte Workflows.",
+      "rule": "contradiction",
+      "message_en": "The draft asserts specific staffing and an affiliated digitalisation company, but the existing page does not support this organisational claim. The statement is an unsupported business assertion.",
+      "action_en": "Provide approved evidence for the staffing and affiliated-company claim, or remove or soften the assertion.",
+      "evidence_refs": [
+        "brand-fact:online_marketer",
+        "brand-fact:digital_partner",
+        "page-9"
+      ],
+      "source_quotes": [
+        {
+          "evidence_ref": "brand-fact:online_marketer",
+          "quote": "Ein Digital-Spezialist im Team hält die Kanzlei technisch auf dem neuesten Stand."
+        },
+        {
+          "evidence_ref": "brand-fact:digital_partner",
+          "quote": "Ein IT-Partnerunternehmen sorgt für moderne, durchdachte Workflows."
+        },
+        {
+          "evidence_ref": "page-9",
+          "quote": "Mit digitalen Abläufen und Branchenwissen schaffen wir übersichtliche Zahlen für Ihre Planung."
+        }
+      ],
+      "problem": "Der Entwurf behauptet konkrete personelle und organisatorische Gegebenheiten (Digital-Spezialist, IT-Partnerunternehmen), die die bestehende Seite nicht belegt.",
+      "correction": "Belegen Sie die Aussage mit freigegebenen Angaben oder entfernen bzw. relativieren Sie sie."
+    },
+    {
+      "requirement_id": "metadata",
+      "material_impact": "Die Meta-Beschreibung verspricht eine digitale Zusammenarbeit, die im Entwurf nur als Begleitung der Digitalisierung und ohne zugesagte technische Abläufe beschrieben wird. Die Beschreibung kann dadurch mehr zusichern, als die Seite tatsächlich belegt.",
+      "metadata_field": "meta_description",
+      "conflicting_passages": [],
+      "module_id": "L01",
+      "claim_id": null,
+      "quote": "Steuerberater für Einzelunternehmen: Finanzbuchhaltung, Steuererklärungen und digitale Zusammenarbeit. Schildern Sie Muster & Partner Ihren Bedarf.",
+      "rule": "editorial",
+      "category": "suggestion",
+      "severity": "suggestion",
+      "message_en": "The meta description presents digital collaboration as a firm offering, while the page frames it as accompanying digitalisation without promised technical processes. A slightly more cautious wording would match the page more closely.",
+      "action_en": "Consider aligning the meta description with the page's cautious framing of digital collaboration.",
+      "evidence_refs": [],
+      "source_quotes": [],
+      "problem": "Die Meta-Beschreibung nennt „digitale Zusammenarbeit“ als festes Angebot, während die Seite diese nur als Begleitung der Digitalisierung ohne zugesagte Abläufe darstellt.",
+      "correction": "Formulieren Sie die Meta-Beschreibung vorsichtiger, sodass sie die zurückhaltende Darstellung der Seite widerspiegelt."
+    }
+  ],
+  "warnings": [
+    "Mehrere blockierende Widersprüche betreffen die Rückmeldezeit und den Wechselablauf; diese sind vor einer Freigabe zu klären.",
+    "Die Aussage zu Digital-Spezialist und IT-Partnerunternehmen ist nicht durch die bestehende Seite belegt."
+  ],
+  "assessments": [
+    {
+      "criterion": "intent",
+      "complete": true
+    },
+    {
+      "criterion": "coverage",
+      "complete": true
+    },
+    {
+      "criterion": "metadata",
+      "complete": true
+    },
+    {
+      "criterion": "cross_section_consistency",
+      "complete": true
+    }
+  ]
+}
